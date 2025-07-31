@@ -1,67 +1,66 @@
 # 🎓 Faculty Appraisal System
 
-A Smart Solution to Manage, Review & Evaluate Faculty Performance  
-**Simplifying academic reviews through digitization and intelligent workflows.**
+A Smart Web Application to Digitize and Streamline Faculty Performance Reviews  
+**Built with React, Node.js, Express, and MongoDB**
 
 ![Version](https://img.shields.io/badge/Version-1.0.0-blueviolet)
 ![Status](https://img.shields.io/badge/Status-Active-green)
 ![Backend](https://img.shields.io/badge/Backend-Node.js-yellow)
+![Frontend](https://img.shields.io/badge/Frontend-React-blue)
 ![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)
-![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-blue)
 
 ---
 
-## 📌 About the Project
+## 📘 Overview
 
-The **Faculty Appraisal System** is a web-based application designed for educational institutions to digitize their faculty performance review process. Faculty members can log in, submit achievements, and upload supporting documents. Admins can view, evaluate, and provide feedback using a centralized dashboard.
+The **Faculty Appraisal System** enables faculty members to submit detailed performance reports including teaching hours, research, services, awards, and more. Admins can view these submissions, evaluate them, provide feedback, and store everything securely in a centralized system.
 
-This system improves transparency, ensures proper documentation, and reduces manual effort in managing yearly appraisals.
+This project replaces manual paperwork with a secure, efficient digital solution — perfect for institutions aiming for transparency, accountability, and ease of access.
 
 ---
 
-## 🌟 Key Features
+## 🌟 Features
 
-### 🧑‍🏫 Faculty Panel
-- Submit detailed appraisal (Teaching, Research, Service, Awards)
-- Upload documents/images as proof
-- Easy-to-use web forms
-- Status tracking of submission
+### 👨‍🏫 Faculty Panel
+- Submit appraisals across categories (Teaching, Research, Service)
+- Upload certificates, documents, or images
+- Responsive form interface with validation
+- View and track submission status
 
-### 🧑‍💼 Admin Panel
-- View all submissions with filters
-- Download supporting documents
-- Provide ratings & comments
-- Organize and export data
+### 👨‍💼 Admin Panel
+- View faculty submissions in detail
+- Provide feedback and remarks
+- Download uploaded documents
+- Search/filter submissions by year or department
 
-### 💡 System Capabilities
-- REST API-based backend
-- MongoDB-powered data storage
-- File uploads using Multer
-- JWT Authentication
-- MVC structure for maintainability
+### 🔐 Security & Workflow
+- Role-based authentication (Faculty/Admin)
+- JSON Web Tokens (JWT) for secure sessions
+- Encrypted password storage (bcrypt)
+- MongoDB with Mongoose ORM for flexible schema design
 
 ---
 
 ## 🛠 Tech Stack
 
-| Layer         | Technologies                         |
-|---------------|--------------------------------------|
-| Frontend      | HTML, CSS, JavaScript (React Optional) |
-| Backend       | Node.js, Express.js                  |
-| Database      | MongoDB + Mongoose                   |
-| File Handling | Multer                               |
-| Authentication| JWT                                  |
-| Middleware    | dotenv, bcrypt, cors, body-parser    |
+| Layer       | Technologies                     |
+|-------------|----------------------------------|
+| Frontend    | React, HTML, CSS, JavaScript     |
+| Backend     | Node.js, Express.js              |
+| Database    | MongoDB + Mongoose               |
+| Auth        | JWT, bcrypt                      |
+| Uploads     | Multer (for file uploads)        |
+| Config      | dotenv (for env variables)       |
 
 ---
 
-## 🔐 .env Configuration
+## 🔐 `.env` Configuration (Backend)
 
-Create a `.env` file in the `/backend` directory with the following:
+Create a `.env` file in your `/backend` folder:
 
 ```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_super_secure_jwt_secret
+JWT_SECRET=your_jwt_secret_key
 NODE_ENV=development
 
