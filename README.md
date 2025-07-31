@@ -4,12 +4,6 @@ A web-based platform designed to streamline the faculty appraisal process for ed
 
 ---
 
-## 🚀 Live Demo
-
-> *(Optional: Add Vercel/Render link here if deployed)*
-
----
-
 ## 🌐 Tech Stack
 
 ### Frontend:
