@@ -1,83 +1,67 @@
-<h1 align="center">🎓 Faculty Appraisal System</h1>
+# 🎓 Faculty Appraisal System
 
-<p align="center">
-  <b>A Smart Solution to Manage, Review & Evaluate Faculty Performance</b><br>
-  Simplifying academic reviews through digitization and intelligent workflows.
-</p>
+A Smart Solution to Manage, Review & Evaluate Faculty Performance  
+**Simplifying academic reviews through digitization and intelligent workflows.**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Version-1.0.0-blueviolet" />
-  <img src="https://img.shields.io/badge/Status-Active-green" />
-  <img src="https://img.shields.io/badge/Backend-Node.js-yellow" />
-  <img src="https://img.shields.io/badge/Database-MongoDB-brightgreen" />
-  <img src="https://img.shields.io/badge/Frontend-HTML/CSS/JS-blue" />
-</p>
+![Version](https://img.shields.io/badge/Version-1.0.0-blueviolet)
+![Status](https://img.shields.io/badge/Status-Active-green)
+![Backend](https://img.shields.io/badge/Backend-Node.js-yellow)
+![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)
+![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-blue)
 
 ---
 
-## 🧾 About the Project
+## 📌 About the Project
 
-The **Faculty Appraisal System** is a web-based application designed to automate and optimize the appraisal workflow in educational institutions. It allows faculty members to submit their academic performance data — including teaching, research, service, and awards — and enables administrators to view, assess, and provide feedback from a centralized dashboard.
+The **Faculty Appraisal System** is a web-based application designed for educational institutions to digitize their faculty performance review process. Faculty members can log in, submit achievements, and upload supporting documents. Admins can view, evaluate, and provide feedback using a centralized dashboard.
 
-This system eliminates manual paperwork, reduces administrative workload, ensures structured data collection, and provides easy access to historical appraisal records.
+This system improves transparency, ensures proper documentation, and reduces manual effort in managing yearly appraisals.
 
 ---
 
-## 🌟 Core Features
+## 🌟 Key Features
 
-### 👨‍🏫 Faculty Panel
-- Secure login for faculty members
-- Dynamic form for data entry: teaching, research, service, etc.
-- Upload documents, images, certificates as proof
-- Submit and track appraisal form status
+### 🧑‍🏫 Faculty Panel
+- Submit detailed appraisal (Teaching, Research, Service, Awards)
+- Upload documents/images as proof
+- Easy-to-use web forms
+- Status tracking of submission
 
 ### 🧑‍💼 Admin Panel
-- View all submitted appraisal forms
+- View all submissions with filters
 - Download supporting documents
-- Rate and comment on faculty performance
-- Filter/sort submissions for quick access
+- Provide ratings & comments
+- Organize and export data
 
-### 🗃️ Data & Workflow
-- Stored securely in MongoDB
-- File uploads managed with Multer
-- Extensible schema for more appraisal fields
-- Optimized routing via Express.js
-
----
-
-## ⚙️ Tech Stack
-
-| Layer       | Technologies                              |
-|-------------|--------------------------------------------|
-| Frontend    | HTML, CSS, JavaScript *(React Optional)*  |
-| Backend     | Node.js, Express.js                       |
-| Database    | MongoDB (with Mongoose ODM)               |
-| File Upload | Multer                                    |
-| Security    | bcrypt (password hashing), CORS           |
-| Environment | dotenv (.env configuration)               |
+### 💡 System Capabilities
+- REST API-based backend
+- MongoDB-powered data storage
+- File uploads using Multer
+- JWT Authentication
+- MVC structure for maintainability
 
 ---
 
-## 🎥 Demo Preview
+## 🛠 Tech Stack
 
-| Faculty Dashboard | Admin Panel |
-|-------------------|-------------|
-| ![Faculty](screenshots/faculty_dashboard.png) | ![Admin](screenshots/admin_panel.png) |
-
-> 💡 *Include real UI screenshots or a video demo to make your project more presentable.*
+| Layer         | Technologies                         |
+|---------------|--------------------------------------|
+| Frontend      | HTML, CSS, JavaScript (React Optional) |
+| Backend       | Node.js, Express.js                  |
+| Database      | MongoDB + Mongoose                   |
+| File Handling | Multer                               |
+| Authentication| JWT                                  |
+| Middleware    | dotenv, bcrypt, cors, body-parser    |
 
 ---
 
-## 🚀 Getting Started
+## 🔐 .env Configuration
 
-### 📦 Prerequisites
-- Node.js & npm
-- MongoDB (local or Atlas)
-- Git
+Create a `.env` file in the `/backend` directory with the following:
 
-### 🔧 Installation
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_super_secure_jwt_secret
+NODE_ENV=development
 
-1. **Clone the repository:**
-```bash
-git clone https://github.com/your-username/faculty-appraisal-system.git
-cd faculty-appraisal-system
