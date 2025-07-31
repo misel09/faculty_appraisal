@@ -99,11 +99,11 @@ Runs on: `http://localhost:5173`
 
 | Homepage                                       | Faculty Dashboard                                                | Events                                   |
 | ---------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------- |
-| ![Homepage](frontend/screenshots/homepage.png) | ![Faculty Dashboard](frontend/screenshots/faculty_dashboard.png) | ![Event](frontend/screenshots/event.png) |
+| ![Homepage](frontend/src/screenshots/homepage.png) | ![Faculty Dashboard](frontend/src/screenshots/faculty_dashboard.png) | ![Event](frontend/src/screenshots/event.png) |
 
 | Publications                                         | Admin View                                         | Form Submission                                              | Report                                     |
 | ---------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------ |
-| ![Publication](frontend/screenshots/publication.png) | ![Admin View](frontend/screenshots/admin_view.png) | ![Form Submission](frontend/screenshots/form_submission.png) | ![Report](frontend/screenshots/report.png) |
+| ![Publication](frontend/src/screenshots/publication.png) | ![Admin View](frontend/src/screenshots/admin_view.png) | ![Form Submission](frontend/src/screenshots/form_submission.png) | ![Report](frontend/src/screenshots/report.png) |
 
 ---
 
