@@ -1,78 +1,85 @@
-# 🎓 Faculty Appraisal System
+# 📚 Faculty Appraisal Management System
 
-A Smart Web Application to Digitize and Streamline Faculty Performance Reviews
-**Built with React, Node.js, Express, and MongoDB**
-
-![Version](https://img.shields.io/badge/Version-1.0.0-blueviolet)
-![Status](https://img.shields.io/badge/Status-Active-green)
-![Backend](https://img.shields.io/badge/Backend-Node.js-yellow)
-![Frontend](https://img.shields.io/badge/Frontend-React-blue)
-![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)
+A web-based platform designed to streamline the faculty appraisal process for educational institutions. This system allows faculty members to submit appraisals under various categories, while administrators can view, manage, and respond to submissions efficiently.
 
 ---
 
-## 📘 Overview
+## 🚀 Live Demo
 
-The **Faculty Appraisal System** enables faculty members to submit detailed performance reports including teaching hours, research, services, awards, and more. Admins can view these submissions, evaluate them, provide feedback, and store everything securely in a centralized system.
-
-This project replaces manual paperwork with a secure, efficient digital solution — perfect for institutions aiming for transparency, accountability, and ease of access.
+> *(Optional: Add Vercel/Render link here if deployed)*
 
 ---
 
-## 🌟 Features
+## 🌐 Tech Stack
 
-### 👨‍🏫 Faculty Panel
+### Frontend:
 
-* Submit appraisals across categories (Teaching, Research, Service)
-* Upload certificates, documents, or images
-* Responsive form interface with validation
-* View and track submission status
+* **React.js**
+* **Vite**
+* **CSS / Tailwind / Material UI (as applicable)**
 
-### 👨‍💼 Admin Panel
+### Backend:
 
-* View faculty submissions in detail
-* Provide feedback and remarks
-* Download uploaded documents
-* Search/filter submissions by year or department
-
-### 🔐 Security & Workflow
-
-* Role-based authentication (Faculty/Admin)
-* JSON Web Tokens (JWT) for secure sessions
-* Encrypted password storage (bcrypt)
-* MongoDB with Mongoose ORM for flexible schema design
+* **Node.js**
+* **Express.js**
+* **MongoDB (via Mongoose)**
 
 ---
 
-## 💠 Tech Stack
+## 📂 Folder Structure
 
-| Layer    | Technologies                 |
-| -------- | ---------------------------- |
-| Frontend | React, HTML, CSS, JavaScript |
-| Backend  | Node.js, Express.js          |
-| Database | MongoDB + Mongoose           |
-| Auth     | JWT, bcrypt                  |
-| Uploads  | Multer (for file uploads)    |
-| Config   | dotenv (for env variables)   |
+```
+├── backend
+│   ├── config
+│   ├── controllers
+│   ├── middleware
+│   ├── models
+│   ├── routes
+│   ├── utils
+│   ├── .env
+│   └── server.js
+├── frontend
+│   ├── public
+│   ├── src
+│   ├── screenshots
+│   │   ├── admin_view.png
+│   │   ├── event.png
+│   │   ├── faculty_dashboard.png
+│   │   ├── form_submission.png
+│   │   ├── homepage.png
+│   │   ├── publication.png
+│   │   └── report.png
+│   ├── index.html
+│   ├── vite.config.js
+├── .gitignore
+└── README.md
+```
 
 ---
 
-## 🔐 `.env` Configuration (Backend)
+## ⚙️ .env Configuration
 
-Create a `.env` file in your `/backend` folder:
+Create a `.env` file in the **backend** folder with the following:
 
-```env
+```
 PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
+MONGO_URL=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
 NODE_ENV=development
 ```
 
 ---
 
-## 🚀 Installation & Run
+## 🛠️ Installation & Setup
 
-### ✨ Backend Setup
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/faculty-appraisal-system.git
+cd faculty-appraisal-system
+```
+
+### 2. Backend Setup
 
 ```bash
 cd backend
@@ -80,7 +87,9 @@ npm install
 npm start
 ```
 
-### ✨ Frontend Setup
+Runs on: `http://localhost:5000`
+
+### 3. Frontend Setup
 
 ```bash
 cd frontend
@@ -88,41 +97,49 @@ npm install
 npm start
 ```
 
-Make sure your backend is running on `http://localhost:5000` and that your frontend calls the correct API base URL.
+Runs on: `http://localhost:5173`
 
 ---
 
-## 📷 UI Screenshots
+## 🖼️ Screenshots
 
-| Homepage                                | Faculty Dashboard                                         | Event Form                        |
-| --------------------------------------- | --------------------------------------------------------- | --------------------------------- |
-| ![Homepage](./frontend/screenshots/homepage.png) | ![Faculty Dashboard](./frontend/screenshots/faculty_dashboard.png) | ![Event](./frontend/screenshots/event.png) |
+| Homepage                                       | Faculty Dashboard                                                | Events                                   |
+| ---------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------- |
+| ![Homepage](frontend/screenshots/homepage.png) | ![Faculty Dashboard](frontend/screenshots/faculty_dashboard.png) | ![Event](frontend/screenshots/event.png) |
 
-| Publication Form                              | Admin View                                  | Form Submission                                       | Report View                         |
-| --------------------------------------------- | ------------------------------------------- | ----------------------------------------------------- | ----------------------------------- |
-| ![Publication](./frontend/screenshots/publication.png) | ![Admin View](./frontend/screenshots/admin_view.png) | ![Form Submission](./frontend/screenshots/form_submission.png) | ![Report](./frontend/screenshots/report.png) |
-
+| Publications                                         | Admin View                                         | Form Submission                                              | Report                                     |
+| ---------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------ |
+| ![Publication](frontend/screenshots/publication.png) | ![Admin View](frontend/screenshots/admin_view.png) | ![Form Submission](frontend/screenshots/form_submission.png) | ![Report](frontend/screenshots/report.png) |
 
 ---
 
-## 🛡 Security & Best Practices
+## ✅ Features
 
-* Store all sensitive info in environment variables
-* Hash passwords with bcrypt before storing
-* Use JWT to maintain secure sessions
-* Use validation for all forms
-* Sanitize user input to prevent XSS/Injection
+* Faculty Registration & Login
+* Role-based Dashboard for Faculty & Admin
+* Appraisal Form Submission
+* Event, Publication, Research, and Teaching Records
+* Admin Panel to View & Evaluate Submissions
+* Report Generation Module
+
+---
+
+## 🧑‍💻 Best Practices
+
+* Modular code structure
+* Proper use of environment variables
+* Secure password handling with bcrypt
+* RESTful API conventions
 
 ---
 
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 👨‍💼 Developed By
+## 🙌 Acknowledgements
 
-**Patel Misel**
- 3rd Year B.Tech Student (Information Technology)
+Thanks to all contributors and mentors who helped build and refine this system.
