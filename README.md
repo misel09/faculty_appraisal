@@ -96,13 +96,12 @@ Make sure your backend is running on `http://localhost:5000` and that your front
 
 | Homepage                                | Faculty Dashboard                                         | Event Form                        |
 | --------------------------------------- | --------------------------------------------------------- | --------------------------------- |
-| ![Homepage](./screenshots/homepage.png) | ![Faculty Dashboard](./screenshots/faculty_dashboard.png) | ![Event](./screenshots/event.png) |
+| ![Homepage](./frontend/screenshots/homepage.png) | ![Faculty Dashboard](./frontend/screenshots/faculty_dashboard.png) | ![Event](./frontend/screenshots/event.png) |
 
 | Publication Form                              | Admin View                                  | Form Submission                                       | Report View                         |
 | --------------------------------------------- | ------------------------------------------- | ----------------------------------------------------- | ----------------------------------- |
-| ![Publication](./screenshots/publication.png) | ![Admin View](./screenshots/admin_view.png) | ![Form Submission](./screenshots/form_submission.png) | ![Report](./screenshots/report.png) |
+| ![Publication](./frontend/screenshots/publication.png) | ![Admin View](./frontend/screenshots/admin_view.png) | ![Form Submission](./frontend/screenshots/form_submission.png) | ![Report](./frontend/screenshots/report.png) |
 
-> *Add these images in a **`/screenshots`** folder inside the root project directory.*
 
 ---
 
