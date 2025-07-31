@@ -97,33 +97,33 @@ Runs on: `http://localhost:5173`
 
 ## 🖼️ Screenshots
 
-### User Interface Previews
+## User Interface Previews
 
-#### Homepage
+## Homepage
 
 ![Homepage](frontend/src/screenshots/homepage.png)
 
-#### Faculty Dashboard
+## Faculty Dashboard
 
 ![Faculty Dashboard](frontend/src/screenshots/faculty_dashboard.png)
 
-#### Event Management
+## Event Management
 
 ![Event](frontend/src/screenshots/event.png)
 
-#### Publications Section
+## Publications Section
 
 ![Publication](frontend/src/screenshots/publication.png)
 
-#### Admin View
+## Admin View
 
 ![Admin View](frontend/src/screenshots/admin_view.png)
 
-#### Form Submission Process
+## Form Submission Process
 
 ![Form Submission](frontend/src/screenshots/form_submission.png)
 
-#### Report Generation
+## Report Generation
 
 ![Report](frontend/src/screenshots/report.png)
 
