@@ -20,37 +20,6 @@ A web-based platform designed to streamline the faculty appraisal process for ed
 
 ---
 
-## 📂 Folder Structure
-
-```
-├── backend
-│   ├── config
-│   ├── controllers
-│   ├── middleware
-│   ├── models
-│   ├── routes
-│   ├── utils
-│   ├── .env
-│   └── server.js
-├── frontend
-│   ├── public
-│   ├── src
-│   │   ├── screenshots
-│   │   │   ├── admin_view.png
-│   │   │   ├── event.png
-│   │   │   ├── faculty_dashboard.png
-│   │   │   ├── form_submission.png
-│   │   │   ├── homepage.png
-│   │   │   ├── publication.png
-│   │   │   └── report.png
-│   ├── index.html
-│   ├── vite.config.js
-├── .gitignore
-└── README.md
-```
-
----
-
 ## ⚙️ .env Configuration
 
 Create a `.env` file in the **backend** folder with the following:
