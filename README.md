@@ -38,7 +38,7 @@ NODE_ENV=development
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/faculty-appraisal-system.git
+git clone https://github.com/misel09/faculty-appraisal-system.git
 cd faculty-appraisal-system
 ```
 
