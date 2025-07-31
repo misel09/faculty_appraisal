@@ -35,14 +35,14 @@ A web-based platform designed to streamline the faculty appraisal process for ed
 ├── frontend
 │   ├── public
 │   ├── src
-│   ├── screenshots
-│   │   ├── admin_view.png
-│   │   ├── event.png
-│   │   ├── faculty_dashboard.png
-│   │   ├── form_submission.png
-│   │   ├── homepage.png
-│   │   ├── publication.png
-│   │   └── report.png
+│   │   ├── screenshots
+│   │   │   ├── admin_view.png
+│   │   │   ├── event.png
+│   │   │   ├── faculty_dashboard.png
+│   │   │   ├── form_submission.png
+│   │   │   ├── homepage.png
+│   │   │   ├── publication.png
+│   │   │   └── report.png
 │   ├── index.html
 │   ├── vite.config.js
 ├── .gitignore
@@ -97,13 +97,35 @@ Runs on: `http://localhost:5173`
 
 ## 🖼️ Screenshots
 
-| Homepage                                       | Faculty Dashboard                                                | Events                                   |
-| ---------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------- |
-| ![Homepage](frontend/src/screenshots/homepage.png) | ![Faculty Dashboard](frontend/src/screenshots/faculty_dashboard.png) | ![Event](frontend/src/screenshots/event.png) |
+### User Interface Previews
 
-| Publications                                         | Admin View                                         | Form Submission                                              | Report                                     |
-| ---------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------ |
-| ![Publication](frontend/src/screenshots/publication.png) | ![Admin View](frontend/src/screenshots/admin_view.png) | ![Form Submission](frontend/src/screenshots/form_submission.png) | ![Report](frontend/src/screenshots/report.png) |
+#### Homepage
+
+![Homepage](frontend/src/screenshots/homepage.png)
+
+#### Faculty Dashboard
+
+![Faculty Dashboard](frontend/src/screenshots/faculty_dashboard.png)
+
+#### Event Management
+
+![Event](frontend/src/screenshots/event.png)
+
+#### Publications Section
+
+![Publication](frontend/src/screenshots/publication.png)
+
+#### Admin View
+
+![Admin View](frontend/src/screenshots/admin_view.png)
+
+#### Form Submission Process
+
+![Form Submission](frontend/src/screenshots/form_submission.png)
+
+#### Report Generation
+
+![Report](frontend/src/screenshots/report.png)
 
 ---
 
@@ -126,7 +148,6 @@ Runs on: `http://localhost:5173`
 * RESTful API conventions
 
 ---
-
 
 ## 📄 License
 
